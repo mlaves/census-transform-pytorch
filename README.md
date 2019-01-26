@@ -23,7 +23,7 @@ plt.show()
 ```
 
 
-![png](test_census_files/test_census_2_0.png)
+![png](https://raw.githubusercontent.com/mlaves/census-transform-pytorch/master/README_files/test_census_2_0.png)
 
 
 
@@ -36,7 +36,7 @@ plt.show()
 ```
 
 
-![png](test_census_files/test_census_3_0.png)
+![png](https://raw.githubusercontent.com/mlaves/census-transform-pytorch/master/README_files/test_census_3_0.png)
 
 
 
@@ -66,11 +66,11 @@ plt.show()
 ```
 
 
-![png](test_census_files/test_census_6_0.png)
+![png](https://raw.githubusercontent.com/mlaves/census-transform-pytorch/master/README_files/test_census_6_0.png)
 
 
 
-![png](test_census_files/test_census_6_1.png)
+![png](https://raw.githubusercontent.com/mlaves/census-transform-pytorch/master/README_files/test_census_6_1.png)
 
 
 
