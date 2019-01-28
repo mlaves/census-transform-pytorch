@@ -1,7 +1,7 @@
 
 # Census Transform
 
-The census transform is a non-parametric kernel-based intensity order descriptor and is invariant to global intensity changes. Every pixel of an image is represented by a binary vector, which encodes the spatial relationship of a center pixel with respect to the gray values of pixels in a local neighborhood. Considering the 8 neighbors of a reference pixel in a $ 3 \times 3 $ neighborhood, every bit of the 8 bit binary vector encodes, which pixel has higher or lower intensity.
+The census transform is a non-parametric kernel-based intensity order descriptor and is invariant to global intensity changes. Every pixel of an image is represented by a binary vector, which encodes the spatial relationship of a center pixel with respect to the gray values of pixels in a local neighborhood. Considering the 8 neighbors of a reference pixel in a 3 x 3 neighborhood, every bit of the 8 bit binary vector encodes, which pixel has higher or lower intensity.
 
 We implemented the census transform as layer operation for PyTorch and show its effect in the following example. We load the famous camera man image and add 0.1 to every pixel to simulate global intensity change. The difference between `img1` and `img2` is greater than 0. However, after census transforming both images, the difference is 0.
 
